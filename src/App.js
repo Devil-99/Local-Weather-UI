@@ -19,13 +19,14 @@ function App() {
   const [input,setInput] = useState("");
   const defaultData = {
     "location": "NIL",
-    "temperature": "0℃",
-    "feels_like": "0℃",
-    "humidity": "0%",
-    "clouds": "0%",
-    "wind_speed": "0 km/h",
+    "temperature": "0",
+    "feels_like": "0",
+    "humidity": "0",
+    "clouds": "0",
+    "wind_speed": "0",
     "country": "IN",
-    "description": "NIL"
+    "description": "NIL",
+    "Visibility":"0"
   };
   const [weatherDetails, setWeatherDetails] = useState(defaultData);
   
